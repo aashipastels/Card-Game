@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+#container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+} 
+ 
+.player1{
+    margin-left: 100px;
+}
+.player2{
+    margin-right: 100px;
+}
+
+.cards{
+    border: solid 5px black;
+    height: 18rem;
+    width: 16rem;
+    font-size: 50px;
+    
+    padding-right: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+}
+.dealer{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 8px;
+}
